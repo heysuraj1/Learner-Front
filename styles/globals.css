@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.mine{
+  width: 500;
+  height: 500;
+  background-color: #203040;
+}
+
+
+h2{
+  text-align: center;
+}
+.henta{
+  text-align: center;
+}
+
+.senta,.bir{
+  border-radius: 70px;
+}
