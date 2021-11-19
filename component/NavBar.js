@@ -5,7 +5,7 @@ function NavBar() {
   const router = useRouter();
   return (
     <div>
-      <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-5">
+      <nav className="navbar navbar-expand-md navbar-dark bg-dark ">
         <div className="container-fluid">
         <Link href="/">
           <a className="navbar-brand" >
