@@ -6,8 +6,7 @@ function contact() {
   return (
     <div>
       <NavBar />
-
-      <Contact/>
+    <div className='mt-4'><Contact/></div>
     </div>
   );
 }

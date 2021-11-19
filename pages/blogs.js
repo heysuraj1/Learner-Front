@@ -20,7 +20,7 @@ function About() {
   return (
     <div>
       <NavBar />
-      <div className="container">
+      <div className="container mt-4">
         {post.map((hit) => {
           return (
             <div key={hit.Slug}>
