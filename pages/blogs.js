@@ -6,7 +6,7 @@ import Link from "next/link";
 function About() {
   const [post, setPost] = useState([]);
   useEffect(() => {
-    let url = "https://learnerboyserver.herokuapp.com/";
+    let url = "https://djangopostgres1.herokuapp.com/";
     axios
       .get(url)
       .then((acc) => {
@@ -23,8 +23,8 @@ function About() {
       <div className="container">
         {post.map((hit) => {
           return (
-            <div key={hit.id}>
-                <Link href={`/blog/${hit.id}`}>
+            <div key={hit.Slug}>
+                <Link href={`/blog/${hit.Slug}`}>
               <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative border border-info ">
                 
                   <div className="col p-4 d-flex flex-column position-static">
