@@ -25,12 +25,12 @@ function RecentBlog() {
           return (
             <div key={rec.id}>
               <Link href={`/blog/${rec.Slug}`}>
-                <div className="col">
-                  <div className="card">
-                    <Image src={"/team.jpg"} width={100} height={150} alt="" />
+                <div className="col lemo">
+                  <div className="card p-2 m-2 mx-auto" style={{width: "18rem"}}>
+                    <Image src={rec.Image} width={200} height={180} alt="" />
 
                     <div className="card-body">
-                      <h5>{rec.Title}</h5>
+                      <h5>{rec.Title.slice(0, 75)}...</h5>
                     </div>
                   </div>
                 </div>
@@ -39,11 +39,11 @@ function RecentBlog() {
           );
         })}
 
-        <div className="container d-flex justify-content-center">
-        <Link href={`/blogs`}>
-          <button className="btn btn-primary">
-            Read More <span>&#8680;</span>
-          </button>
+        <div className="container d-flex justify-content-center mt-4">
+          <Link href={`/blogs`}>
+            <button className="btn btn-primary mt3">
+              Read More <span>&#8680;</span>
+            </button>
           </Link>
         </div>
       </div>
