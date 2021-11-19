@@ -25,7 +25,7 @@ function About() {
           return (
             <div key={hit.Slug}>
                 <Link href={`/blog/${hit.Slug}`}>
-              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative border border-info ">
+              <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative border border-info lemo">
                 
                   <div className="col p-4 d-flex flex-column position-static">
                     <div className="mb-1 text-muted">{hit.Date}</div>
