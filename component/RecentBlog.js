@@ -6,7 +6,7 @@ import axios from "axios";
 function RecentBlog() {
   const [reblog, setReblog] = useState([]);
   useEffect(() => {
-    let a = "https://djangopostgres1.herokuapp.com";
+    let a = "https://djangopostgres1.herokuapp.com/api";
     axios
       .get(a)
       .then((acc) => {
@@ -27,7 +27,7 @@ function RecentBlog() {
               <Link href={`/blog/${rec.Slug}`}>
                 <div className="col lemo">
                   <div className="card p-2 m-2 mx-auto" style={{width: "18rem"}}>
-                    <Image src={rec.Image} width={200} height={180} alt="" />
+                    <Image src={`https://djangopostgres1.herokuapp.com${rec.Image}`} width={200} height={180} alt="" />
 
                     <div className="card-body">
                       <h5>{rec.Title.slice(0, 75)}...</h5>

@@ -6,7 +6,7 @@ import Link from "next/link";
 function About() {
   const [post, setPost] = useState([]);
   useEffect(() => {
-    let url = "https://djangopostgres1.herokuapp.com/";
+    let url = "https://djangopostgres1.herokuapp.com/api/";
     axios
       .get(url)
       .then((acc) => {

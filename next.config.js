@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['i9.ytimg.com'],
+    domains: ['djangopostgres1.herokuapp.com'],
   },
 }

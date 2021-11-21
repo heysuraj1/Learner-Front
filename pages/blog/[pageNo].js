@@ -3,7 +3,7 @@ import React from "react";
 import NavBar from "../../component/NavBar";
 
 export const getStaticPaths = async () => {
-  const res = await fetch("https://djangopostgres1.herokuapp.com/");
+  const res = await fetch("https://djangopostgres1.herokuapp.com/api/");
   const data = await res.json();
 
   const paths = data.map((him) => {
@@ -19,7 +19,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const Slug = context.params.pageNo;
-  const res = await fetch(`https://djangopostgres1.herokuapp.com/?Slug=${Slug}`);
+  const res = await fetch(`https://djangopostgres1.herokuapp.com/api/?Slug=${Slug}`);
   const data = await res.json();
 
   return {
