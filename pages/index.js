@@ -12,7 +12,8 @@ function index() {
   return (
     <div>
       <NavBar/>
-      <Craousel/>      
+      <Craousel/>
+            
       <FrontContainer/>
       <FrontExplainer/>
       

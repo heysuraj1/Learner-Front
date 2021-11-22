@@ -55,7 +55,7 @@ function NavBar() {
               </li>
               <li className="nav-item">
                 <Link href="/contact">
-                  <a className={router.pathname == "/contact" ? "active nav-link" : "nav-link"}>Contact Us</a>
+                  <a className={router.pathname == "/contact" ? "active nav-link" : "nav-link"}>{session ? `${session.user.name}`:'Noo'}</a>
                 </Link>
               </li>
 
@@ -84,6 +84,7 @@ function NavBar() {
                 </li>
                  )
                }
+
 
 
 
