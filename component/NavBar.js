@@ -1,7 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { signIn, signOut ,useSession } from 'next-auth/client'
+  
+
+
+
+
 function NavBar() {
+   const [ session , loading ] = useSession()
+   console.log(session , loading)
   const router = useRouter();
   return (
     <div>
@@ -50,6 +58,38 @@ function NavBar() {
                   <a className={router.pathname == "/contact" ? "active nav-link" : "nav-link"}>Contact Us</a>
                 </Link>
               </li>
+
+              {
+
+                !loading && !session && ( <li className="nav-item">
+                <Link href="/api/auth/signin">
+                  <a onClick={e => {
+                    e.preventDefault()
+                    signIn('github')
+                  }} className={router.pathname == "/contact" ? "active nav-link" : "nav-link"}>Sign In</a>
+                </Link>
+              </li> )
+
+
+              }
+               {
+                 session && (
+                  <li className="nav-item">
+                  <Link href="/api/auth/signout">
+                    <a onClick={e => {
+                      e.preventDefault()
+                      signOut()
+                    }} className={router.pathname == "/contact" ? "active nav-link" : "nav-link"}>Sign Out</a>
+                  </Link>
+                </li>
+                 )
+               }
+
+
+
+
+              
+              
             </ul>
             {/* <form className="d-flex">
               <input
