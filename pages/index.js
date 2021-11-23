@@ -6,7 +6,7 @@ import Contact from "../component/Contact";
 import Craousel from "../component/Craousel";
 import FrontContainer from "../component/FrontContainer";
 import FrontExplainer from "../component/FrontExplainer";
-
+import { withRouter } from 'next/router';
 
 function index() {
   return (

@@ -1,7 +1,9 @@
 import React from "react";
 import { useState } from "react";
+import { useRouter } from 'next/router'
 
 function Contact() {
+  const Router = useRouter()
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -34,7 +36,9 @@ function Contact() {
         
       }
     })
+    Router.push('/')
     window.alert('Messge Sent Succesfully')
+
   }
   
   
