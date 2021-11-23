@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import React from "react";
 import NavBar from "../../component/NavBar";
+import Image from 'next/image'
 
 export const getStaticPaths = async () => {
   const res = await fetch("https://djangopostgres1.herokuapp.com/api/");
@@ -40,6 +41,8 @@ function MyData({ data }) {
           <div className="col-sm-1 d-sm-none d-md-block">Ads</div>
           <div className="col-sm-10 bg-light p-4">
           <h3 className="pb-5">{data.Title}</h3>
+          <Image src={data.Image} width={500} height={280} layout='responsive' alt="" />
+
           <div
             className="mt-3 text-start"
             dangerouslySetInnerHTML={{
