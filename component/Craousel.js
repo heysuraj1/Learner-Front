@@ -7,15 +7,15 @@ function Craousel() {
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <Image src="/web1.jpg" className="d-block w-100"  width={1600} height={600} alt="" />
+      <Image src="/web1.jpg" className="d-block w-100"  width={3000} height={800} alt="" />
       {/* <img src="..." className="d-block w-100" alt="..."> */}
     </div>
     <div className="carousel-item">
-      <Image src="/web2.jpg" className="d-block w-100"  width={1600} height={600} alt="" />
+      <Image src="/web2.jpg" className="d-block w-100"  width={3000} height={800} alt="" />
       {/* <img src="..." className="d-block w-100" alt="..."> */}
     </div>
     <div className="carousel-item">
-      <Image src="/web3.jpg" className="d-block w-100"  width={1600} height={600} alt="" />
+      <Image src="/web3.jpg" className="d-block w-100"  width={3000} height={800} alt="" />
       {/* <img src="..." className="d-block w-100" alt="..."> */}
     </div>
   </div>
