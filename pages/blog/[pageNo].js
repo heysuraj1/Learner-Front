@@ -4,6 +4,7 @@ import NavBar from "../../component/NavBar";
 import Image from 'next/image'
 
 export const getStaticPaths = async () => {
+  
   const res = await fetch("https://djangopostgres1.herokuapp.com/api/");
   const data = await res.json();
 

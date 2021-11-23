@@ -15,21 +15,17 @@ function about() {
           </h1>
           <div className="col-lg-6 mx-auto">
             <p className="lead mb-4">
-              At LearnerBoy.tech we belive technology is the future and the
-              country which will have the best technology will be known all over
-              the world. This is the reason that we have taken this step to make
-              people aware of real technology. You will get a lot of knowledge
-              from new technologies on this website.
+            At learnerboy we are working for you so you get updated from all the latest technologies. This is the only place for tech enthusiasts. Find great articles about new tech inventions, Latest gadgets in market , Some ungorgatable fact about technoloies, lots more at just one place. At learnerboyu we belive that teamwork and community support is a very essential thing. So we are helping you over emai.
             </p>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-              <Link href="/video">
+              {/* <Link href="/video">
                 <button
                   type="button"
                   className="btn btn-outline-secondary btn-lg px-4"
                 >
                   Watch Our Videos
                 </button>
-              </Link>
+              </Link> */}
               <Link href="/blogs">
                 <button
                   type="button"
@@ -43,13 +39,13 @@ function about() {
           <div className="overflow-hidden" style={{ maxHeight: 310 }}>
             <div className="container px-5">
               {/* <img src="bootstrap-docs.png" className="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"/> */}
-              <Image
+              {/* <Image
                 src="/aboutPic.png"
                 className="img-fluid border rounded-3 shadow-lg mb-4"
                 alt="Example image"
                 width="700"
                 height="500"
-              />
+              /> */}
             </div>
           </div>
         </div>
@@ -70,23 +66,21 @@ function about() {
             </div>
             <div className="col-lg-6">
               <h1 className="display-5 fw-bold lh-1 mb-3 text-white">
-                Responsive left-aligned hero with image
+              We are here to spread tech knowledge in India.That will blow your mind
               </h1>
               <p className="lead text-white">
-                Quickly design and customize responsive mobile-first sites with
-                Bootstrap, the world’s most popular front-end open source
-                toolkit, featuring Sass variables and mixins, responsive grid
-                system, extensive prebuilt components, and powerful JavaScript
-                plugins.
+              At learnerboy we always work in team work so that we can serve you more. We are fetching all the latest news and Technologies from over the world so you could be aware what happening in tech industries now.
               </p>
               <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-            
+              <Link href="/blogs">
                 <button
                   type="button"
-                  className="btn btn-outline-secondary btn-lg px-4 text-white"
+                  className="btn btn-outline-secondary btn-lg px-4"
                 >
-                  Default
+                  Read Our Blogs
                 </button>
+              </Link>
+                 
               </div>
             </div>
           </div>
@@ -96,15 +90,15 @@ function about() {
       <div className="b-example-divider"></div>
 
       <div className="container px-4 py-5" id="hanging-icons">
-    <h2 className="pb-2 border-bottom">Hanging icons</h2>
+    
     <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div className="col d-flex align-items-start">
         <div className="icon-square bg-light text-dark flex-shrink-0 me-3">
           <svg className="bi" width="1em" height="1em"></svg>
         </div>
         <div>
-          <h2>Featured title</h2>
-          <p>Paragraph of text beneath the heading to explain the heading. We add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <h2>Get New Tech Update</h2>
+          <p>At learnerboy we are working for you so you get updated from all the latest technologies. This is the only place for tech enthusiasts.</p>
           {/* <a href="/" className="btn btn-primary"> */}
             {/* Primary button */}
           {/* </a> */}
@@ -115,8 +109,8 @@ function about() {
           <svg className="bi" width="1em" height="1em"></svg>
         </div>
         <div>
-          <h2>Featured title</h2>
-          <p>Paragraph of text beneath the heading to explain the heading. Weadd onto it with another sentence and probably just keep going until we run out of words.</p>
+          <h2>Trending Tech</h2>
+          <p>Find great articles about new tech inventions, Latest gadgets in market , Some ungorgatable fact about technoloies, lots more at just one place.</p>
           {/* <a href="/" className="btn btn-primary"> */}
             {/* Primary button */}
           {/* </a> */}
@@ -127,8 +121,8 @@ function about() {
           <svg className="bi" width="1em" height="1em"></svg>
         </div>
         <div>
-          <h2>Featured title</h2>
-          <p>Paragraph of text beneath the heading to explain the heading. We add onto it with another sentence and probably just keep going until we run out of words.</p>
+          <h2>Community Support</h2>
+          <p>At learnerboyu we belive that teamwork and community support is a very essential thing. So we are helping you over emai.</p>
           {/* <a href="/" className="btn btn-primary"> */}
             {/* Primary button */}
           {/* </a> */}

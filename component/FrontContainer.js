@@ -16,10 +16,9 @@ function FrontContainer() {
               </div>
             </text>
 
-            <h2>Heading</h2>
+            <h2>Get New Tech Update</h2>
             <p>
-              Some representative placeholder content for the three columns of
-              text below the carousel. This is the first column.
+              At learnerboy we are working for you so you get updated from all the latest technologies. This is the only place for tech enthusiasts.
             </p>
             <p>
               
@@ -34,10 +33,9 @@ function FrontContainer() {
               </div>
             </text>
 
-            <h2 >Heading</h2>
+            <h2 >Trending Technologies</h2>
             <p>
-              Some representative placeholder content for the three columns of
-              text below the carousel. This is the first column.
+              Find great articles about new tech inventions, Latest gadgets in market , Some ungorgatable fact about technoloies, lots more at just one place.
             </p>
             <p>
              
@@ -52,10 +50,9 @@ function FrontContainer() {
               </div>
             </text>
 
-            <h2>Heading</h2>
+            <h2>Community Support</h2>
             <p>
-              Some representative placeholder content for the three columns of
-              text below the carousel. This is the first column.
+              At learnerboyu we belive that teamwork and community support is a very essential thing. So we are helping you over emai. 
             </p>
             <p>
               
