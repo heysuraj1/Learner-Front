@@ -1,4 +1,4 @@
-export default function (req, res) {
+export default function handler(req, res) {
     require('dotenv').config()
     
     let nodemailer = require('nodemailer')
@@ -26,4 +26,14 @@ export default function (req, res) {
         console.log(info)
     })
     res.status(200)
+
+
+
   }
+
+
+
+  // export default function handler(req, res) {
+  //   res.status(200).json({ name: "John Doe" });
+  // }
+  
