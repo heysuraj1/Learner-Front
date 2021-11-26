@@ -7,6 +7,7 @@ import Footer from "../component/Footer";
 function about() {
   return (
     <div>
+      
       <NavBar />
       <div className="container">
         <div className="px-4 pt-5 my-5 text-center border-bottom">
